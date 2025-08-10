@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifa ProFondos Club Wolves 🐺</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rifa ProFondos Torneos Deportivos Club Wolves 🐺</h1>
+        <p>Apóyame para viajar a la Final Torneo T&E en Medellín, comprando esta rifa que juega el 25 de agosto con Chontico Noche</p>
+    </header>
+
+    <section class="info">
+        <h2>Detalles de la Rifa</h2>
+        <ul>
+            <li><b>Organizador:</b> Sammuel David Tobar Mora</li>
+            <li><b>Valor:</b> $20.000</li>
+            <li><b>Nequi:</b> 3204845400</li>
+            <li><b>Banco:</b> Nequi</li>
+            <li><b>Correo de reservas:</b> sammueltobar@gmail.com</li>
+        </ul>
+    </section>
+
+    <section class="numeros">
+        <h2>Números disponibles</h2>
+        <div id="lista-numeros"></div>
+    </section>
+
+    <section class="formulario">
+        <h2>Reserva tu número</h2>
+        <form id="reservaForm">
+            <input type="text" name="nombre" placeholder="Nombre completo" required>
+            <input type="text" name="direccion" placeholder="Dirección" required>
+            <input type="tel" name="telefono" placeholder="Teléfono" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <select name="pago" required>
+                <option value="">Método de pago</option>
+                <option value="Nequi">Nequi</option>
+                <option value="PSE">PSE</option>
+            </select>
+            <input type="number" name="numero" placeholder="Número elegido" required>
+            <button type="submit">Reservar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+    <footer>
+        <p>Club Wolves 🐺 - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
